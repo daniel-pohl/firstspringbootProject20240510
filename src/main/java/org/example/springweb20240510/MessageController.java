@@ -29,10 +29,10 @@ public class MessageController {
         for (Message message : messagesList) {
             if (message.getId().equals(id)) {
                 messagesList.remove(message);
-                return "Item with ID " + id + " removed successfully.";
+                return "Message with ID " + id + " removed successfully.";
             }
         }
-        return "Message with id " + id + " not found.";
+        return "Message with ID " + id + " not found.";
 
     }
 }
